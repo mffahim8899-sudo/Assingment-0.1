@@ -721,14 +721,14 @@ button.different-btn{
       align-items: center;
     }
 ul.footer-ul li {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
     margin-bottom: 6px;
     color: #ccd8d8;
 }
 .copyright p {
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 400;
     color: rgba(255, 255, 255,2.6);
     text-align: center;
     margin-top: 30px;
@@ -771,8 +771,8 @@ ul.footer-ul li {
 
 }
 .address h3 {
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 400;
     color: #ffffff;
     margin-bottom: 10px;
 }
