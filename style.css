@@ -91,12 +91,12 @@ text-transform: capitalize;
     padding: 20px 25%;
 }
 .button-2x {
-    display: block;
-    margin: 300px auto;
+    margin: 60px auto;
     padding: 18px 40px;
     font-size: 24px;
     line-height: 24px;
-}  
+    display: inline-block;
+}
 
 /* main -area starts  */
 
@@ -710,17 +710,11 @@ button.different-btn{
     background-color:#0D1B2A;
     padding: 40px;
 }
-    .footer-one{
-
-    }
 .footer-logo {
     width: 177px;
     height: auto;
     margin-bottom: 30px;
 }
-     .footer-two{
-
-    }
     .footer-wrapper{
       display: flex;
       justify-content: space-between;
@@ -739,7 +733,9 @@ ul.footer-ul li {
     text-align: center;
     margin-top: 30px;
 }
-
+.social-icons a{
+  margin-right: 7px;
+}
 .social-icons .fa-brands {
     font-size: 30px;
     font-weight: 700;
@@ -747,6 +743,32 @@ ul.footer-ul li {
     /* padding: 20px; */
     margin-top: 28px;
     display: inline-block;
+}
+.social-icons .fa-facebook {
+    color: blue;
+    background-color: white;
+    border-radius: 12%;
+}
+.social-icons .fa-instagram {
+    background: linear-gradient(
+    45deg,
+    #833AB4,
+    #C13584,
+    #E1306C,
+    #F56040,
+    #FCAF45
+);
+    border-radius: 7px;
+}
+.social-icons .fa-youtube {
+    color: red;
+    background: white;
+    border-radius: 28%;
+}
+.social-icons .fa-linkedin{
+
+  color:  #70B5F9;
+
 }
 .address h3 {
     font-size: 25px;
