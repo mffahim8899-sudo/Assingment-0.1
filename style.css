@@ -279,9 +279,9 @@ button.different-btn{
 /* creative-Ai-section */
 /* creative-Ai-section */
   #join-section-v2 {
-    --jv-navy: #0D1B2A;
-    --jv-blue: #2563EB;
-    --jv-gray: #888888;
+    --jv-navy: #3c5e82;
+    --jv-blue: #eb9525;
+    --jv-gray: #f7f7f7;
     --jv-line: #E5E7EB;
     background: var(--jv-navy);
     color: var(--jv-line);
@@ -310,16 +310,16 @@ button.different-btn{
     }
 
     /* ---------- left: copy + CTA ---------- */
-    #join-section-v2 .jv-eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.55rem;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.78rem;
-      letter-spacing: 0.08em;
-      color: var(--jv-blue);
-      margin-bottom: 1.4rem;
-    }
+  #join-section-v2 .jv-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2.78rem;
+    letter-spacing: 0.08em;
+    color: var(--jv-blue);
+    margin-bottom: 1.4rem;
+}
 
     #join-section-v2 .jv-eyebrow::before {
       content: '';
@@ -703,3 +703,54 @@ button.different-btn{
       }
       #join-section-v2 .jv-pass { margin: 0 auto; }
     }
+
+    /* footer styling */
+
+  .footer {
+    background-color:#0D1B2A;
+    padding: 40px;
+}
+    .footer-one{
+
+    }
+.footer-logo {
+    width: 177px;
+    height: auto;
+    margin-bottom: 30px;
+}
+     .footer-two{
+
+    }
+    .footer-wrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+ul.footer-ul li {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #ccd8d8;
+}
+.copyright p {
+    font-size: 26px;
+    font-weight: 600;
+    color: rgba(255, 255, 255,2.6);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-icons .fa-brands {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0050ff;
+    /* padding: 20px; */
+    margin-top: 28px;
+    display: inline-block;
+}
+.address h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
